@@ -31,6 +31,18 @@ This will run the python app using the development server.
 
 Then visit http://localhost:3000
 
+### Reset
+
+Delete is not currently implemented, to flush redis open the cli via:
+
+    redis-cli
+    
+Then issue a `flushdb` command:
+ 
+    flushdb
+    
+All your todos will be deleted.
+
 ### Production
 
 I recommend to set up `waitress`, `uvicorn` or another production-grade server if you plan to finish/improve and host the final application.
