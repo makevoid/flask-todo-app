@@ -39,7 +39,7 @@ Delete is not currently implemented, to flush redis open the cli via:
     
 Then issue a `flushdb` command:
  
-    flushdb
+    127.0.0.1:6379> flushdb
     
 All your todos will be deleted.
 
