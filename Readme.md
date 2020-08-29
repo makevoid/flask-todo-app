@@ -52,4 +52,4 @@ I recommend to set up `waitress`, `uvicorn` or another production-grade server i
 
 Enjoy!
 
-@makevoid
+*@makevoid*
